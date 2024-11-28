@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaStore - Upload Prescription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>PharmaStore</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Prescription Upload Section -->
+    <section>
+        <h2>Upload Your Prescription</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="file">Upload Prescription:</label>
+            <input type="file" id="file" name="prescription" accept=".jpg, .jpeg, .png, .pdf" required>
+
+            <button type="submit">Upload</button>
+        </form>
+        <a href="categories.html">Back to Categories</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PharmaStore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
